@@ -1,0 +1,45 @@
+div{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 10px;
+}
+
+.header{
+  height: 50px;
+  padding: 10px;
+  .title{
+    font-family: "Coda";
+    font-size: 22px;
+    color: black;
+  }
+}
+
+.container{
+  .game{
+    width: 600px;
+    //height: 400px;
+    margin: 10px auto;
+
+    .stats{
+      padding: 10px 0;
+      font-family: "Questrial";
+      margin: 5px 0;
+    }
+  }
+}
+
+.content{
+  width: 600px;
+  height: 400px;
+  background-color: black;
+  filter: blur(1px);
+  position: relative;
+}
+
+.clicked{
+  //background-color: black;
+}

@@ -1,0 +1,29 @@
+.square{
+
+  position: absolute;
+
+  border-radius: 0;
+
+
+  &.empty{
+    background-color: black;
+  }
+
+  &.snake{
+    background-color: green;
+  }
+
+  &.filled{
+    background-color: red;
+  }
+
+  &.collision{
+    background-color: red;
+  }
+
+  &.food{
+    border-radius: 100px;
+    background-color: yellow;
+  }
+
+}
